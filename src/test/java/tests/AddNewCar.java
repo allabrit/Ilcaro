@@ -46,7 +46,7 @@ public class AddNewCar extends TestBase{
 
         app.car().openCarForm();
         app.car().fillCarForm(car);
-        app.car().attachPhoto("C:\\Users\\Alla\\Desktop\\projects QA\\Ilcaro\\Ilcaro\\photo-1612468008274-9445bd56161e.jpg");
+        app.car().attachPhoto("C:\\Users\\Alla\\Desktop\\projects QA\\Ilcaro\\photo-1612468008274-9445bd56161e.jpg");
         app.car().submit();
         Assert.assertEquals(app.car().getMessage(), "Car added");
     }
@@ -55,7 +55,7 @@ public class AddNewCar extends TestBase{
 
         app.car().openCarForm();
         app.car().fillCarForm(car);
-        app.car().attachPhoto("C:\\Users\\Alla\\Desktop\\projects QA\\Ilcaro\\Ilcaro\\photo-1612468008274-9445bd56161e.jpg");
+        app.car().attachPhoto("C:\\Users\\Alla\\Desktop\\projects QA\\Ilcaro\\photo-1612468008274-9445bd56161e.jpg");
         app.car().submit();
         Assert.assertEquals(app.car().getMessage(), "Car added");
     }

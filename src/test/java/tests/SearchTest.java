@@ -14,14 +14,14 @@ public class SearchTest extends TestBase{
     app.search().searchCurrentMonth("Tel-Aviv","7/28/2022","7/27/2022");
     app.search().submit();
     Assert.assertTrue(app.search().isListOfCarsAppeared());
-    app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/Ilcaro/src/test/screenshorts/screen.1png");
+    app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/src/test/screenshorts/screen.1png");
 }
 @Test
 public void searchNextMonth(){
     app.search().searchNextMonth("Tel-Aviv-Jaffa","8/28/2022","8/27/2022");
     app.search().submit();
     Assert.assertTrue(app.search().isListOfCarsAppeared());
-    app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/Ilcaro/src/test/screenshorts/screen.2png");
+    app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/src/test/screenshorts/screen.2png");
 }
 
 @Test
@@ -38,7 +38,7 @@ Assert.assertTrue(app.search().isPeriodInPast());
     app.search().submit();
     Assert.assertTrue(app.search().isListOfCarsAppeared());
     Assert.assertTrue(app.search().isPageResultAppeared());
-    app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/Ilcaro/src/test/screenshorts/screen.4png");
+    app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/src/test/screenshorts/screen.4png");
 
 }
 
@@ -47,7 +47,7 @@ public void searchCurrentYearLocalDate(){
     app.search().searchCurrentYearLocalDate("Haifa","8/10/2022","10/20/2022");
     app.search().submit();
     Assert.assertTrue(app.search().isListOfCarsAppeared());
-    app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/Ilcaro/src/test/screenshorts/screen.5png");
+    app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/src/test/screenshorts/screen.5png");
 
 }
     @Test(groups = {"web"})
@@ -55,7 +55,7 @@ public void searchCurrentYearLocalDate(){
         app.search().searchAnyPeriod("Haifa", "1/10/2023", "5/25/2023");
         app.search().submit();
         Assert.assertTrue(app.search().isListOfCarsAppeared());
-        app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/Ilcaro/src/test/screenshorts/screen.6png");
+        app.search().takeScreenShots("C:/Users/Alla/Desktop/projects QA/Ilcaro/src/test/screenshorts/screen.6png");
     }
 
 

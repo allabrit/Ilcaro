@@ -1,0 +1,80 @@
+20:59:58.355 INFO  manager.ApplicationManager - All tests run in Chrome Driver
+20:59:59.792 INFO  manager.ApplicationManager - Current Url---->https://ilcarro-1578153671498.web.app/search
+20:59:59.829 INFO  tests.TestBase - start test with name-->loginNegativeTestsWrongEmail
+21:00:09.864 INFO  manager.MyListener - New Before find by-->By.xpath: //a[text()=' Logout ']
+21:00:09.866 INFO  manager.MyListener - WebDriver start find element-->By.linkText: Log in
+21:00:09.979 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='email']
+21:00:10.763 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='password']
+21:00:10.911 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:26.326 INFO  manager.MyListener - New Before find by-->By.xpath: //button[text()='Ok']
+21:00:26.332 INFO  tests.TestBase - start test with name-->successLogin
+21:00:36.396 INFO  manager.MyListener - New Before find by-->By.xpath: //a[text()=' Logout ']
+21:00:36.404 INFO  tests.TestBase - Test start with email:noa@gmail.com & password: Nnoa12345$
+21:00:36.404 INFO  manager.MyListener - WebDriver start find element-->By.linkText: Log in
+21:00:36.505 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='email']
+21:00:37.221 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='password']
+21:00:37.377 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:37.434 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:39.515 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container
+21:00:39.561 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container h1
+21:00:39.607 INFO  tests.TestBase - Test passed
+21:00:39.627 INFO  manager.MyListener - New Before find by-->By.xpath: //button[text()='Ok']
+21:00:39.628 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[text()='Ok']
+21:00:39.695 INFO  tests.TestBase - start test with name-->successLogin
+21:00:39.714 INFO  manager.MyListener - New Before find by-->By.xpath: //a[text()=' Logout ']
+21:00:39.715 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //a[text()=' Logout ']
+21:00:39.841 INFO  tests.TestBase - Test start with logout
+21:00:39.841 INFO  tests.TestBase - Test start with email:sonya@gmail.com & password: Ss12345$
+21:00:39.842 INFO  manager.MyListener - WebDriver start find element-->By.linkText: Log in
+21:00:39.922 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='email']
+21:00:40.701 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='password']
+21:00:40.825 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:40.874 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:42.945 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container
+21:00:42.979 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container h1
+21:00:43.013 INFO  tests.TestBase - Test passed
+21:00:43.031 INFO  manager.MyListener - New Before find by-->By.xpath: //button[text()='Ok']
+21:00:43.031 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[text()='Ok']
+21:00:43.084 INFO  tests.TestBase - start test with name-->successLogin
+21:00:43.103 INFO  manager.MyListener - New Before find by-->By.xpath: //a[text()=' Logout ']
+21:00:43.103 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //a[text()=' Logout ']
+21:00:43.202 INFO  tests.TestBase - Test start with logout
+21:00:43.202 INFO  tests.TestBase - Test start with email:noa@gmail.com & password: Nnoa12345$
+21:00:43.202 INFO  manager.MyListener - WebDriver start find element-->By.linkText: Log in
+21:00:43.274 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='email']
+21:00:44.008 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='password']
+21:00:44.133 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:44.180 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:46.247 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container
+21:00:46.279 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container h1
+21:00:46.310 INFO  tests.TestBase - Test passed
+21:00:46.325 INFO  manager.MyListener - New Before find by-->By.xpath: //button[text()='Ok']
+21:00:46.325 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[text()='Ok']
+21:00:46.378 INFO  tests.TestBase - start test with name-->successLogin
+21:00:46.395 INFO  manager.MyListener - New Before find by-->By.xpath: //a[text()=' Logout ']
+21:00:46.395 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //a[text()=' Logout ']
+21:00:46.476 INFO  tests.TestBase - Test start with logout
+21:00:46.477 INFO  tests.TestBase - Test start with email:sonya@gmail.com & password: Ss12345$
+21:00:46.477 INFO  manager.MyListener - WebDriver start find element-->By.linkText: Log in
+21:00:46.546 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='email']
+21:00:47.292 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='password']
+21:00:47.413 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:47.453 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:49.523 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container
+21:00:49.554 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container h1
+21:00:49.583 INFO  tests.TestBase - Test passed
+21:00:49.600 INFO  manager.MyListener - New Before find by-->By.xpath: //button[text()='Ok']
+21:00:49.600 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[text()='Ok']
+21:00:49.661 INFO  tests.TestBase - start test with name-->successLogin3
+21:00:49.688 INFO  manager.MyListener - New Before find by-->By.xpath: //a[text()=' Logout ']
+21:00:49.688 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //a[text()=' Logout ']
+21:00:49.778 INFO  tests.TestBase - Test start with logout
+21:00:49.778 INFO  manager.MyListener - WebDriver start find element-->By.linkText: Log in
+21:00:49.844 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='email']
+21:00:50.587 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //input[@id='password']
+21:00:50.713 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:50.754 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[@type='submit']
+21:00:52.817 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container
+21:00:52.845 INFO  manager.MyListener - WebDriver start find element-->By.cssSelector: div.dialog-container h1
+21:00:52.890 INFO  manager.MyListener - New Before find by-->By.xpath: //button[text()='Ok']
+21:00:52.891 INFO  manager.MyListener - WebDriver start find element-->By.xpath: //button[text()='Ok']
