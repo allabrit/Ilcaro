@@ -30,7 +30,7 @@ public class HelperUser extends HelperBase{
         type(By.xpath("//input[@id='password']"), password);
 
 
-
+//gjjkk
     }
     public void fillLoginForm(User user) {
         type(By.xpath("//input[@id='email']"), user.getEmail());
